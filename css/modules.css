@@ -1,0 +1,30 @@
+div{ border: 1px solid yellow;}
+
+/* Mobile screen */
+@media  screen and  (min-width:480px ) and (max-width:767px){
+
+    section{background-color: wheat;}
+.a{background: #c56183;}
+.b,.c ,.d{background: #e5c5b5;}
+.e,.f,.g,.h{background: #f4d9c6;}
+.i{background: #c56183;}
+} 
+/* Tablet screen  */
+@media only screen and (min-width:768px ) and (max-width:959px){
+
+    section{background-color: wheat;}
+.a{background: #c56183;}
+.b,.c ,.d{background: #e5c5b5;}
+.e,.f,.g,.h{background: #f4d9c6;}
+.i{background: #c56183;}
+}
+    
+/* Desktop Screen */
+@media only screen and (min-width:959px ){
+
+section{background-color: wheat;}
+.a{background: #c56183;}
+.b,.c ,.d{background: #e5c5b5;}
+.e,.f,.g,.h{background: #f4d9c6;}
+.i{background: #c56183;}
+}   
