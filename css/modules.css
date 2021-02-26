@@ -1,85 +1,31 @@
-div{
-    text-align: center;  
-    box-sizing: border-box; 
-    border: 1px solid gray; 
-}
-/* Colouing mobile */
-@media  screen and  (min-width:480px ) and (max-width:767px){
-.a{ background: indianred;}
-.b{background: lightblue;}
-.c{background: lightgreen;}
-.d{background: lightslategray;}
-.e ,.f,.g,.h{background: rgb(194, 238, 106);}
-.i{background: rgb(202, 95, 56);}
-}
-@media  screen and  (min-width:530px ) and (max-width:767px){
-.a{background: lightblue;}
-.b{background: rgb(214, 115, 115);}
-.c{background: rgb(229, 164, 255);}
-.d{background: lightgreen;}
-.e ,.f,.g,.h{background: wheat;}
-.i{background: rgb(202, 95, 56);}
-}
-@media  screen and  (min-width:650px ) and (max-width:767px){
-.a{ background: indianred;}
-.b{background: lightblue;}
-.c{background: lightgreen;}
-.d{background: lightslategray;}
-.e ,.f,.g,.h{background: rgb(194, 238, 106);}
-.i{background: rgb(202, 95, 56);}
-}
-@media  screen and  (min-width:700px ) and (max-width:767px){
-.a{background: lightblue;}
-.b{background: rgb(214, 115, 115);}
-.c{background: rgb(229, 164, 255);}
-.d{background: lightgreen;}
-.e ,.f,.g,.h{background: wheat;}
-.i{background: rgb(202, 95, 56);}
-}
-/* Colouring Screen */
- @media  screen and  (min-width:767px ){
-.a{ background: #c56183;}
-.b{background: #e5c5b5;}
-.c{background: #e5c5b5;}
-.d{background:  #e5c5b5;}
-.e{background: #f4d9c6;}
-.f{ background: #f4d9c6;}
-.g{background: #f4d9c6;}
-.h{background: #f4d9c6;}
-.i{background: #c56183;}
-}
+div{ border: 1px solid yellow;}
 
- @media  screen and  (min-width:820px ){
-.a{ background: #99bbad;}
-.b{background: #ebd8b7;}
-.c{background:  #ebd8b7;}
-.d{background:   #ebd8b7;}
-.e{background: #c6a9a3;}
-.f{ background: #c6a9a3;}
-.g{background: #c6a9a3;}
-.h{background:  #c6a9a3;}
-.i{background: #99bbad;}
-}
-@media  screen and  (min-width:870px ){
-.a{ background: #c56183;}
-.b{background: #e5c5b5;}
-.c{background: #e5c5b5;}
-.d{background:  #e5c5b5;}
-.e{background: #f4d9c6;}
-.f{ background: #f4d9c6;}
-.g{background: #f4d9c6;}
-.h{background: #f4d9c6;}
+/* Mobile screen */
+@media  screen and  (min-width:480px ) and (max-width:767px){
+
+    section{background-color: wheat;}
+.a{background: #c56183;}
+.b,.c ,.d{background: #e5c5b5;}
+.e,.f,.g,.h{background: #f4d9c6;}
+.i{background: #c56183;}
+} 
+/* Tablet screen  */
+@media only screen and (min-width:768px ) and (max-width:959px){
+
+    section{background-color: wheat;}
+.a{background: #c56183;}
+.b,.c ,.d{background: #e5c5b5;}
+.e,.f,.g,.h{background: #f4d9c6;}
 .i{background: #c56183;}
 }
- @media  screen and  (min-width:920px ){
-.a{ background: #99bbad;}
-.b{background: #ebd8b7;}
-.c{background:  #ebd8b7;}
-.d{background:   #ebd8b7;}
-.e{background: #c6a9a3;}
-.f{ background: #c6a9a3;}
-.g{background: #c6a9a3;}
-.h{background:  #c6a9a3;}
-.i{background: #99bbad;}
-}
+    
+/* Desktop Screen */
+@media only screen and (min-width:959px ){
+
+section{background-color: wheat;}
+.a{background: #c56183;}
+.b,.c ,.d{background: #e5c5b5;}
+.e,.f,.g,.h{background: #f4d9c6;}
+.i{background: #c56183;}
+}   
 
